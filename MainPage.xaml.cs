@@ -1,5 +1,7 @@
+using Microsoft.Maui.Controls;
+using shanPro.Views;
+
 namespace shanPro;
-using Views;
 
 public partial class MainPage : ContentPage
 {

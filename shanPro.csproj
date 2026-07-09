@@ -10,6 +10,8 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>shanPro</RootNamespace>
     <AssemblyName>shanPro</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

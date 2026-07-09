@@ -1,5 +1,8 @@
-namespace shanPro.Services;
+using System;
 using System.Diagnostics;
+using System.Threading.Tasks;
+
+namespace shanPro.Services;
 
 /// <summary>
 /// C#实现安卓本地Shell命令执行，复刻Termux执行逻辑

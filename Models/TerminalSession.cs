@@ -1,3 +1,6 @@
+using Android.OS;
+using System.Collections.Generic;
+
 namespace shanPro.Models;
 
 /// <summary>
@@ -5,6 +8,6 @@ namespace shanPro.Models;
 /// </summary>
 public class TerminalSession
 {
-    public string WorkDir { get; set; } = Android.OS.Environment.ExternalStorageDirectory.AbsolutePath;
+    public string WorkDir { get; set; } = Environment.ExternalStorageDirectory.AbsolutePath;
     public List<string> CommandHistory { get; set; } = new();
 }

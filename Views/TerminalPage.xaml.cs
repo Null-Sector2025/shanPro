@@ -1,6 +1,8 @@
+using Microsoft.Maui.Controls;
+using shanPro.Models;
+using shanPro.Services;
+
 namespace shanPro.Views;
-using Models;
-using Services;
 
 public partial class TerminalPage : ContentPage
 {
