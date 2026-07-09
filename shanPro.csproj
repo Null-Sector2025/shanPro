@@ -15,12 +15,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <MauiXaml Include="App.xaml"/>
-    <MauiXaml Include="MainPage.xaml"/>
-    <MauiXaml Include="Views/TerminalPage.xaml"/>
-  </ItemGroup>
-
-  <ItemGroup>
     <AndroidResource Include="Platforms/Android/Resources/values/Strings.xml"/>
   </ItemGroup>
 
