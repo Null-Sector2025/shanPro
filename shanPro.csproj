@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-android34.0</TargetFramework>
+    <TargetFramework>net9.0-android35.0</TargetFramework>
     <UseMaui>true</UseMaui>
     <ApplicationTitle>shanPro</ApplicationTitle>
     <ApplicationId>com.custom.shanpro</ApplicationId>
@@ -32,8 +32,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.40"/>
-    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.40"/>
-    <PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.40"/>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.70"/>
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.70"/>
+    <PackageReference Include="Microsoft.Maui.Essentials" Version="9.0.70"/>
   </ItemGroup>
 </Project>
