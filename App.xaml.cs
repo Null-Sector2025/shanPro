@@ -1,13 +1,13 @@
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using shanPro.Views;
 
 namespace shanPro;
 
 public partial class App : Application
 {
-    public App()
+    protected override Window CreateWindow(IActivationState? activationState)
     {
-        InitializeComponent();
-        MainPage = new NavigationPage(new MainPage());
+        return new Window(new NavigationPage(new MainPage()));
     }
 }
