@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android34.0</TargetFramework>
+    <UseMaui>true</UseMaui>
+    <ApplicationTitle>shanPro</ApplicationTitle>
+    <ApplicationId>com.custom.shanpro</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationVersionString>1.0.0</ApplicationVersionString>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>shanPro</RootNamespace>
+    <AssemblyName>shanPro</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <MauiXaml Include="App.xaml"/>
+    <MauiXaml Include="MainPage.xaml"/>
+    <MauiXaml Include="Views/TerminalPage.xaml"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="App.xaml.cs"/>
+    <Compile Include="MainPage.xaml.cs"/>
+    <Compile Include="Views/TerminalPage.xaml.cs"/>
+    <Compile Include="Models/TerminalSession.cs"/>
+    <Compile Include="Services/TerminalService.cs"/>
+    <Compile Include="Platforms/Android/MainActivity.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <AndroidResource Include="Platforms/Android/Resources/values/Strings.xml"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.40"/>
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.40"/>
+    <PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.40"/>
+  </ItemGroup>
+</Project>
